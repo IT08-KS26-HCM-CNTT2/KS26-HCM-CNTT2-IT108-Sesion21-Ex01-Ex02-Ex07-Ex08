@@ -1,0 +1,42 @@
+
+1. PHÂN TÍCH ƯU / NHƯỢNG ĐIỂM CỦA TỪNG CÂU TRẢ LỜI
+[Câu trả lời A] 
+- Đặc điểm: Đăng 10 năm trước, 0 lượt vote.
+- Ưu điểm: Hầu như không có.
+- Nhược điểm: 
+  + Quá cũ (10 năm): VS Code ra mắt năm 2015, kiến trúc và cơ chế 
+    Terminal đã thay đổi qua rất nhiều phiên bản.
+  + Không có tính xác nhận: 0 vote chứng tỏ cộng đồng không đánh 
+    giá cao hoặc giải pháp không giải quyết được vấn đề.
+[Câu trả lời B]
+- Đặc điểm: Có tích xanh (Accepted ✓), 2 lượt vote.
+- Ưu điểm: Được chính người đặt câu hỏi xác nhận là đã sửa được lỗi 
+  tại thời điểm họ gặp phải.
+- Nhược điểm: 
+  + Chỉ có 2 vote: Tầm ảnh hưởng và độ tin cậy đối với số đông kém.
+  + Nhược điểm phiên bản: Tích xanh thể hiện giải pháp đúng tại 
+    thời điểm quá khứ. Do VS Code cập nhật thường xuyên, cách xử lý 
+    này có thể đã bị lỗi thời (deprecated) ở các bản cập nhật hiện tại.
+[Câu trả lời C]
+- Đặc điểm: Không tích xanh, 150 Upvotes, comment: "This still works in 2024!".
+- Ưu điểm:
+  + Lượt vote cao (150 Upvotes): Chứng minh giải pháp đã cứu nguy cho 
+    rất nhiều người dùng qua thời gian.
+  + Tính cập nhật: Bình luận xác nhận hoạt động tốt ở các phiên bản 
+    mới (2024), cho thấy giải pháp vẫn giữ nguyên giá trị thực tiễn.
+- Nhược điểm: Người đặt câu hỏi ban đầu không bấm chọn tích xanh 
+  (có thể do họ đã bỏ theo dõi post hoặc nghỉ dùng tài khoản).
+2. LỰA CHỌN CÂU TRẢ LỜI VÀ LẬP LUẬN
+LỰA CHỌN: Tôi sẽ áp dụng CÂU TRẢ LỜI C đầu tiên.
+LẬP LUẬN GIẢI THÍCH:
+- Bẫy về phiên bản phần mềm (Software Version Drift): 
+  Trong phát triển phần mềm, tích xanh (Accepted Answer) trên Stack 
+  Overflow chỉ mang giá trị lịch sử — phản ánh cái đúng tại thời điểm 
+  người đặt câu hỏi đăng bài. Với một công cụ cập nhật liên tục như 
+  VS Code, các thiết lập Terminal (settings.json, path, profile) thay 
+  đổi rất nhiều qua từng năm.
+- Giá trị của 150 Upvotes + Comment mới: 
+  Điểm vote lớn đi kèm phản hồi gần đây ("This still works in 2024!") 
+  là bằng chứng sống cho thấy cách xử lý này tương thích tốt với các 
+  phiên bản VS Code hiện hành, tránh được rủi ro làm hỏng thêm cấu 
+  hình do áp dụng các lệnh đã bị khai tử (deprecated) từ câu B.

@@ -1,0 +1,29 @@
+
+1. TẠI SAO TRUY VẤN BAN ĐẦU LÀ "BAD QUERY" (GÂY NHIỄU)?
+- Chứa nhiều từ thừa (conversational filler): Các từ như "thầy ơi", 
+  "cho em xin", "với ạ" là câu giao tiếp hàng ngày, không mang giá 
+  trị dữ liệu để thuật toán Google truy xuất tài liệu kỹ thuật.
+- Thiếu từ khóa chuyên môn: Không có các thuật ngữ chuẩn như 
+  "MDN" (Mozilla Developer Network) hay "Tutorial".
+- Không giới hạn phạm vi tìm kiếm: Tìm kiếm dạng từ tự do khiến 
+  Google trả về rất nhiều bài viết từ diễn đàn, blog cá nhân, 
+  và các trang web quảng cáo khóa học thương mại.q
+2. TRUY VẤN TỐI ƯU (SỬ DỤNG TOÁN TỬ TÌM KIẾM)
+Cú pháp tối ưu 1 (Tiếng Việt):
+  site:developer.mozilla.org html cơ bản -diễn đàn -forum -ads
+Cú pháp tối ưu 2 (Tiếng Anh - Chuẩn nhất của Mozilla):
+  site:developer.mozilla.org html basics -forum -ads
+3. GIẢI THÍCH Ý NGHĨA VÀ HIỆU QUẢ TIẾT KIỆM THỜI GIAN
+- Toán tử "site:developer.mozilla.org":
+  + Ý nghĩa: Ép Google chỉ tìm kiếm dữ liệu nằm bên trong tên miền
+    chính thức của Mozilla.
+  + Hiệu quả: Loại bỏ 100% các trang quảng cáo, blog trung gian 
+    và các trang web giả mạo.
+- Toán tử loại trừ "-":
+  + Ý nghĩa: Loại bỏ các trang chứa từ khóa đứng sau dấu trừ 
+    (ví dụ: -forum, -diễn đàn).
+  + Hiệu quả: Lọc sạch các trang thảo luận loãng thông tin, đưa 
+    sinh viên tới thẳng trang hướng dẫn bài học (Tutorial/Guide).
+=> KẾT LUẬN: Thay vì mất 15-30 phút sàng lọc hàng chục trang rác 
+   và quảng cáo, truy vấn tối ưu giúp sinh viên tiếp cận đúng 
+   tài liệu chính hãng của Mozilla chỉ trong 1 giây.
